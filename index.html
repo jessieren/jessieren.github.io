@@ -73,18 +73,28 @@ ul {
 <h1>Jessie Jie Ren</h1>
 <div>Computational Biology and Bioinformatics; Machine learning; Statistical Modeling</div>
 <div id="links">
-    <a href="https://twitter.com/jessierenjie">twitter</a>
-    <a href="https://github.com/jessieren">github</a>
-    <a href="https://scholar.google.com/citations?user=Os9wmpkAAAAJ&hl=en">google scholar</a>
+    <a href="https://twitter.com/jessierenjie">Twitter</a>
+    <a href="https://github.com/jessieren">Github</a>
+    <a href="https://scholar.google.com/citations?user=Os9wmpkAAAAJ&hl=en">Google scholar</a>
     <span style="cursor: pointer; text-decoration: underline;" id="iemail">email</span>
 </div>
 <div id="demail"></div> <!-- will reveal email -->
 
 <br>
 <div>
-I am a Research Scientist in Google Research Brain Team. I received my PhD in Computational Biology and Bioinformatics and MSc in Statistics at the University of Southern California. The focus of my research has been machine learning and statistical modeling in biological and medical problems, uncertainty estimation and out-of-distribution detection in deep learning.
+I am a Research Scientist in Google Research Brain Team. 
+  I received my PhD in Computational Biology and Bioinformatics and MSc in Statistics at the University of Southern California. 
+  The focus of my research has been machine learning and statistical modeling in biological and medical problems, uncertainty estimation and out-of-distribution detection in deep learning.
 </div>
-  
+
+
+<h2>talks</h2>
+
+<ul class="nodot">
+    <li>2021 ICML WiML Un-Workshop: <a href="https://docs.google.com/presentation/d/1E90g5yJpYZBa-_jRYGc0IMSnE0axf0wHskUKS1XD-9Y/edit?usp=sharing">Likelihood ratios for out-of-distribution detection</a></li>
+    <li>2019 NeurIPS: <a href="https://www.youtube.com/watch?v=-FduW9ZWAR4">Likelihood ratios for out-of-distribution detection</a></li>
+</ul>
+
 </div>
 
 <!-- attempt hiding from spambots :p -->
@@ -92,7 +102,7 @@ I am a Research Scientist in Google Research Brain Team. I received my PhD in Co
 var e_is_shown = false;
 document.getElementById('iemail').addEventListener("click", function(){
     let demail = document.getElementById('demail');
-    demail.innerHTML = 'jie.ren.usc' + ' _at_ ' + 'gmail' + '.com';
+    demail.innerHTML = 'renj' + ' _at_ ' + 'usc' + '.edu';
     demail.style.opacity = e_is_shown ? 0 : 1;
     e_is_shown = !e_is_shown;
 })
